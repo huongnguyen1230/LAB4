@@ -4,31 +4,31 @@
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
 int main(int argc, char *argv[]) {
-	float r, c,s;
+	float r, c,s,a,dai,rong;
 	printf("ban kinh \n");
 	scanf ("%f", &r);
 	s = r*r*3.14;
-	printf ("dien tich hinh tron: %f=%f^2*3.14 \n", s,r);
+	printf ("dien tich hinh tron:%f \n", s);
 	c= 2*r*3.14;
-	printf ("chu vi hinh tron: %f=2*%f*3.14 \n", c,r);
+	printf ("chu vi hinh tron: %f \n", c);
 	
-	float a,cv,dt;
+
 	printf("canh hinh vuong\n");
 	scanf ("%f", &a);
-	dt = a*4;
-	printf ("dien tich hinh vuong: %f=%f*a\n", dt,a);
-	cv= a+a;
-	printf ("chu vi hinh vuong: %f=%f+%f\n", cv,a);
+	s = a*a;
+	printf ("dien tich hinh vuong: %f\n",s);
+	c= a*4;
+	printf ("chu vi hinh vuong: %f\n", c);
 	
-	float b,d,chv,dth;
-	printf("chieu dai \n");
-	scanf ("%f", &b);
-	printf ("chieu rong \n");
-	scanf("%f", &d);
-	dth=b*d;
-	printf ("dien tich hinh chu nhat: %f=%f*%f \n", dth,b,d);
-	chv=(b+d)*2;
-	printf("chu vi hinh chu nhat: %f= (%f+%f)*2 \n", chv,b,d);
+	
+	printf("chieu dai hcn \n");
+	scanf ("%f", &dai);
+	printf ("chieu rong hcn \n");
+	scanf("%f", &rong);
+	s=dai*rong;
+	printf ("dien tich hinh chu nhat: %f \n",s);
+	c=(dai +rong)*2;
+	printf("chu vi hinh chu nhat: %f\n",c);
 	
 	
 	
